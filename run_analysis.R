@@ -53,5 +53,5 @@ setwd("~/GitHub/Module3/project/Module 3 Project/UCI HAR Dataset/")
     tidy[, c("subject", "activity")] <- list(NULL)
 
 # Output tidied data
-    write.table(tidy, "tidy.txt", sep="\t", col.names = TRUE)
+    write.table(tidy, "tidy.txt", sep="\t", col.names = TRUE, row.name = FALSE)
 
