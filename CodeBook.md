@@ -50,8 +50,8 @@ Notes:
 
 
 <H2>Variables</H2>
-    activityLabels: data.frame[6,2] List activity name in accorance to the keys index in trainActivty & testActivity.
-    features: data.table[561,2]: Lists all the features, used as column names for data in mergedData & meanSDData
+    activityLabels: data.frame[6,2] List activity name (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) in accorance to the keys index in trainActivty & testActivity.
+    features: data.table[561,2]: Lists all the 561 features, used as column names for data in mergedData & meanSDData
 
     trainX: data.table[7352,561] Training Set data of 561 variables
     trainActivity: data.table[7352,1] Training Activity data label
